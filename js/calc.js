@@ -15,21 +15,20 @@ const inputDaug = document.getElementById("num1daug");
 const inputSum = document.getElementById("num2sum");
 const btnDaug = document.getElementById("daug");
 const btnSum = document.getElementById("sum");
-const displayDaug = document.getElementById("daugyba");
-const displaySum = document.getElementById("sudetis");
+const displayRes = document.getElementById("result");
 
 btnDaug.addEventListener("click", fn);
 function fn(event) {
   event.preventDefault();
-  const daugyba = inputDaug.value;
-  const sudetis = inputSum.value;
-  displayDaug.textContent = daugyba * sudetis;
+  let daugyba = inputDaug.value;
+  let sudetis = inputSum.value;
+  displayRes.textContent = daugyba * sudetis;
 }
-
-btnSum.addEventListener("click", fn);
-function fn(event) {
+btnSum.addEventListener("click", fs);
+function fs(event) {
   event.preventDefault();
-  const num1 = num1.value;
-  const num2 = num2.value;
-  displaySum.textContent = num1 + num2;
+  let daugyba = parseInt(inputDaug.value);
+  let sudetis = parseInt(inputSum.value);
+
+  sudetis = displayRes.textContent = daugyba + sudetis;
 }

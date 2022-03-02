@@ -12,5 +12,5 @@ daugintiEl.addEventListener("click", () => {
 });
 
 num2El.addEventListener("input", () => {
-  daugRezultEl.innerHTML = num1El.value + num2El.value;
+  daugRezultEl.innerHTML = num1El.value * num2El.value;
 });

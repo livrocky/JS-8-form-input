@@ -15,8 +15,6 @@ const out3El = document.getElementById("out3");
 const sliderValueEl = document.querySelector(".value");
 
 // debugger;
-// visada tuscia
-// const usernameValue = usernameEL.value;
 
 // uzdeti event pasilklausyma ir sustabdyti siuntima
 formEl.addEventListener("submit", (event) => {
