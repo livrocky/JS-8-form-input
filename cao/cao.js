@@ -11,11 +11,11 @@ function typeL(num) {
   const letter = "L";
   let allLetters = "";
   for (let i = 0; i <= num; i++) {
-    displayEl.innerHTML += `${letter}`;
+    displayEl.innerHTML += `${letter}<br>`;
     if (i === num - 1) {
-      displayEl.innerHTML += `${letter} <br>`;
+      displayEl.innerHTML += letter;
     }
   }
 }
 
-typeL(9);
+typeL(6);
