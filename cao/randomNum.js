@@ -6,7 +6,7 @@ console.log(random);
 
 btnEl.addEventListener("click", fn);
 function fn(event) {
-  event.preventDefault();
+  // event.preventDefault();
   let number = numberEl.value;
 
   if (number != random) {

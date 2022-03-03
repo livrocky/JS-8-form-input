@@ -5,17 +5,28 @@
 // L
 // L L L L
 
-const displayEl = document.getElementById("display");
+// const displayEl = document.getElementById("display");
 
-function typeL(num) {
-  const letter = "L";
-  let allLetters = "";
-  for (let i = 0; i <= num; i++) {
-    displayEl.innerHTML += `${letter}<br>`;
-    if (i === num - 1) {
-      displayEl.innerHTML += letter;
-    }
+// function typeL(num) {
+//   const letter = "L";
+//   let allLetters = "";
+//   for (let i = 0; i <= num; i++) {
+//     displayEl.innerHTML += `${letter}<br>`;
+//     if (i === num - 1) {
+//       displayEl.innerHTML += letter;
+//     }
+//   }
+// }
+
+// typeL(6);
+
+const displayEl = document.getElementById("display");
+function typeL(n) {
+  for (let i = 0; i < n - 1; i++) {
+    displayEl.innerHTML += `L<br/>`;
+  }
+  for (let i = 0; i < n; i++) {
+    displayEl.innerHTML += "L";
   }
 }
-
-typeL(6);
+typeL(5);
